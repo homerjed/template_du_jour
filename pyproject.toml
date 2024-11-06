@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "template_du_jour"
+version = "0.0.0"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "scipy"
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "User Name", email = "user.name@example.com"},
+]
+description = "This is a project."
+readme = "README.md"
+keywords = ["great", "project"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[tool.hatch.build]
+include = ["*"]

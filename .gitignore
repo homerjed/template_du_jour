@@ -1,0 +1,6 @@
+*.npy
+*.npz
+*.hdf5
+*__pycache__/
+*.pdf
+.DS_Store/
